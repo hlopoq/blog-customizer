@@ -114,8 +114,8 @@ export const ArticleParamsForm = ({ setAppState }: ArticleParamsFormProps) => {
 					/>
 
 					<div className={styles.bottomContainer}>
-						<Button title='сбросить' type='clear' />
-						<Button title='применить' type='apply' />
+						<Button title='сбросить' htmlType='reset' type='clear' />
+						<Button title='применить' htmlType='submit' type='apply' />
 					</div>
 				</form>
 			</aside>
